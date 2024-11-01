@@ -1,0 +1,1592 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kindergarten</name>
+    </assembly>
+    <members>
+        <member name="M:Kindergarten.DBAdd_data_vac.Add(System.String,System.DateTime,System.String)">
+             <summary>
+            
+             </summary>
+             <param name="kod_vak"></param>
+             <param name="data"></param>
+             <param name="kod_kid"></param>
+             <returns></returns>
+        </member>
+        <member name="M:Kindergarten.DBAuthorization.Authorization(System.String,System.String)">
+            <summary>
+            Поиск должности в таблице "Сотрудники" по логину и паролю
+            </summary>
+            <param name="login"></param>
+            <param name="password"></param>
+        </member>
+        <member name="M:Kindergarten.DBAuthorization.FIO(System.String,System.String)">
+            <summary>
+            Поиск ФИО сотрудника в таблице "Сотрудник"  по логину и паролю
+            </summary>
+            <param name="login"></param>
+            <param name="password"></param>
+        </member>
+        <member name="M:Kindergarten.DBAuthorization.Telephone(System.String,System.String)">
+            <summary>
+            Поиск телефона в таблице "Сотрудник"  по логину и паролю
+            </summary>
+            <param name="login"></param>
+            <param name="password"></param>
+        </member>
+        <member name="T:Kindergarten.Excel_doc_Group">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:Kindergarten.Output_documents.Post_medcart_infoKid(System.String)">
+            <summary>
+            Запросы для формирования выходных docx документов "Информация о выбранном ребенке" и "Отчет о проведенных занятиях за недельный период времени"
+            </summary>
+            <param name="Kid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kindergarten.Proverka_parents.Proverka(System.String,System.String,System.String)">
+            <summary>
+            Проверка в таблице "родители" по трем условиям (код,телефон матери, телефон отца)
+            </summary>
+            <param name="Kod_p"></param>
+            <param name="Telephone_mom"></param>
+            <param name="Telephone_dad"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kindergarten.Proverka_parents.Proverka_kod(System.String)">
+            <summary>
+            Проверка в таблице "родители" по коду
+            </summary>
+            <param name="Kod_p"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kindergarten.Proverka_parents.Proverka_telephone_mom(System.String)">
+            <summary>
+            Проверка в таблице "родители" по телефону матери
+            </summary>
+            <param name="Telephone_mom"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kindergarten.Proverka_parents.Proverka_telephone_dad(System.String)">
+            <summary>
+            Проверка в таблице "родители" по телефону отца
+            </summary>
+            <param name="Telephone_dad"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kindergarten.Proverka_parents.Proverka_telephone_momANDtelephone_dad(System.String,System.String)">
+            <summary>
+            Проверка в таблице "родители" по телефону отца и матери
+            </summary>
+            <param name="Telephone_mom"></param>
+            <param name="Telephone_dad"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kindergarten.Addpost.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            \Записывается в журнал события
+            path - путь к txt файлу
+            Entrance - сегодняшняя дата и время\
+            Добавления новой записи в справочник "должность"
+            Proverkapost - проверка на повторения записи (по полю названия должности)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Addpost.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Addpost.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Addpost.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_data_vac.Add_data_vac_Load(System.Object,System.EventArgs)">
+            <summary>
+            Заполнение comboBox-кса (comboBox1 - имя вакцинации, comboBox2 - ФИО ребенка)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Add_data_vac.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Добавление записи в таблицу "vaccination_data"
+              Proverka_data_vac - проверка на повторение записи (по коду вакцинации,дате и коду ребенка)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Add_data_vac.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_data_vac.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Add_data_vac.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_Distiplin.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            \Записывается в журнал события
+            path - путь к txt файлу
+            Entrance - сегодняшняя дата и время\
+            Добавление новой записи в таблицу "дисциплина"
+             Proverka_dist - проверка на повторение записи (по полю "название дисциплины")
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Add_Distiplin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_Distiplin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Add_Distiplin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_group_healt.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Добавление новой записи в справочник "health_group"
+            Proverka_health_group - проверка на повторение записи (по полю номера группы здоровья)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Add_group_healt.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_group_healt.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Add_group_healt.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_Group_kid.Add_Group_kid_Load(System.Object,System.EventArgs)">
+            <summary>
+            Заполнение comboBox-кса (comboBox1 - имя типа группы)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Add_Group_kid.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            \Записывается в журнал события
+            path - путь к txt файлу
+            Entrance - сегодняшняя дата и время\
+            Добавление новой записи в таблицу "Группы"
+            Proverka_group_kid - проверка на повторении записи (по полю название группы и номера кабинета)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Add_Group_kid.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_Group_kid.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Add_Group_kid.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_Kid.Add_Kid_Load(System.Object,System.EventArgs)">
+            <summary>
+            Заполнение comboBox-кса (
+            comboBox1 - ФИО отца
+            comboBox2 - тип группы
+            comboBox6 - ФИО матери
+            )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Add_Kid.button4_Click(System.Object,System.EventArgs)">
+            <summary>
+            Поиск паспортных данных одного из родителей по двум comboBox-ксам (ФИО отца и матери)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Add_Kid.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            \Записывается в журнал события
+            path - путь к txt файлу
+            Entrance - сегодняшняя дата и время\
+            Добавления новой записи в таблицу "ребенок"
+                Проверки:
+                Кол-во детей в группе (Filter_kid)
+                Возраст (Proverka_kid(AGE_FROM,AGE_UP))
+                Пустые поля
+                на повторения записи по полю свидетельство о рождении (Proverka_kid.Proverka)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Add_Kid.comboBox2_SelectionChangeCommitted(System.Object,System.EventArgs)">
+            <summary>
+            В зависимости от выбора из comboBox2-кса типа группы, в comboBox7 будут отображаться группы, соотвествующей выбранной типа группы
+            Например:
+             comboBox2 = Ясельная группа
+             comboBox7 = Пчела,Утконосы
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Add_Kid.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_Kid.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Add_Kid.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_lessons.Add_lessons_Load(System.Object,System.EventArgs)">
+            <summary>
+            Заполнение comboBox-кса (
+            comboBox1 - Группа
+            comboBox2 - ФИО сотрудника
+            comboBox6 - Дисциплина
+            )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Add_lessons.button2_Click(System.Object,System.EventArgs)">
+             <summary>
+             Добавление новой записи в таблицу "Занятия" за недельный период времени (От Пн до Пт)
+            
+             weekBefore,weekUp - переменный для подсчета недельнего периода
+             Find_hour_dist_fromlessonsproverka - находит стандартное значения кол-во часов выбранной дисциплины, который учитель должен провести за недельный период
+             Proverka_hour_lesson.Proverka - проверят сколько часов, выбранной дисциплины, за недельный период времени было уже проведено
+             Proverka_hour_lesson.Hour - переменна, которая хранит кол-во часов выбранной дисциплины, за недельный период времени, которые были уже проведены
+             Find_hour_dist_fromlessonsproverka.Hour_dist - переменная, которая хранит стандартное значения часов выбранной дисциплины
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Add_lessons.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_lessons.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Add_lessons.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_Med_cart.Add_Med_cart_Load(System.Object,System.EventArgs)">
+            <summary>
+            Заполнение comboBox-кса (
+            comboBox1 - ФИО ребенка
+            comboBox2 - Группа здоровья
+            )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Add_Med_cart.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Добавление новой записи в таблицу "Мед карта"
+            Proverka_med_cart - проверка на повторения записи (по полю свидетельство о рождении)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Add_Med_cart.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_Med_cart.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Add_Med_cart.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_parents.button2_Click(System.Object,System.EventArgs)">
+             <summary>
+             Добавление новой записи в таблицу "Родители"
+            
+             Proverka_parents.Proverka_kod - Проверка в таблице "родители" по коду
+             Proverka_parents.Proverka_telephone_momANDtelephone_dad - Проверка в таблице "родители" по телефону отца и матери
+            
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Add_parents.comboBox1_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Очистка не активного groupBox-кса
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Add_parents.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_parents.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Add_parents.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_staff.Add_staff_Load(System.Object,System.EventArgs)">
+            <summary>
+             Заполнение comboBox-кса (
+            comboBox1 - Должность
+            )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Add_staff.button2_Click(System.Object,System.EventArgs)">
+             <summary>
+             \Записывается в журнал события
+             path - путь к txt файлу
+             Entrance - сегодняшняя дата и время\
+            
+             Добавления новой записи в таблицу "Сотрудники"
+             Proverka_staff_login.Proverka_log - проверка на повторения записи (по полю логина)
+             Proverka_staff_login.Proverka_telephone - проверка на повтороения записи (по полю телефона)
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Add_staff.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_staff.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Add_staff.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_type_group.button3_Click(System.Object,System.EventArgs)">
+             <summary>
+             \Записывается в журнал события
+             path - путь к txt файлу
+             Entrance - сегодняшняя дата и время\
+            
+             Добавления новой записи в таблицу "Типа группы"
+             Proverka_typegroup - проверка на повторения записи (по полю названия типа группы)
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Add_type_group.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_type_group.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Add_type_group.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_vaccination.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Добавления новой записи  в справочник "Вакцинация"
+            Proverka_vaccination - проверка на повторения записи (по полю названия вакцинации)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Add_vaccination.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Add_vaccination.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Add_vaccination.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Data_vaccination.Data_vaccination_Load(System.Object,System.EventArgs)">
+            <summary>
+             Заполнение comboBox-кса (
+            comboBox1 - ФИО ребенка
+            comboBox2 - Группа
+            comboBox6 - Вакцина
+            )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Data_vaccination.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Удаления записи
+            dialogResult -диалоговое окно на подтверждения удаления записи
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Data_vaccination.button5_Click(System.Object,System.EventArgs)">
+            <summary>
+            Фильтрация по ФИО ребенка
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Data_vaccination.comboBox2_SelectionChangeCommitted(System.Object,System.EventArgs)">
+            <summary>
+            Фильтрация по Группе и Вакцине отдельно и вместе
+            Filter_data_vac.Filter_VacANDGroup - фильтрация по группе и вакцине вместе
+            Filter_data_vac.Filter_Group - фильтрация по группе
+            Filter_data_vac.Filter_Vac - фильтрация по вакцине
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Data_vaccination.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Data_vaccination.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Data_vaccination.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Discipline.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            \Записывается в журнал события
+            path - путь к txt файлу
+            Entrance - сегодняшняя дата и время\
+            Удаления записи в таблице "Дисциплина"
+            dialogResult - диалоговое окно на подтверждения удаления записи
+            Delete_dist.Delete_Proverka - проверка что запись не используется в другой таблице
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Discipline.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Discipline.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Discipline.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Doc_group.Doc_group_Load(System.Object,System.EventArgs)">
+            <summary>
+             Заполнение comboBox-кса (
+            comboBox1 - Группа
+            )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Doc_group.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+             Формирования выходного excel документа "Список выбранной группы"
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Doc_group.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Doc_group.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Doc_group.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Doc_group_med_cart.Doc_group_med_cart_Load(System.Object,System.EventArgs)">
+            <summary>
+            Заполнение comboBox-кса (
+            comboBox1 - Группа
+            )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Doc_group_med_cart.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+             Формирования выходного excel документа "Список детей выбранной группы имеющих хроническое заболевание"
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Doc_group_med_cart.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Doc_group_med_cart.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Doc_group_med_cart.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            \Записывается вход/ошибка авторизации пользователя в журнал события
+            path - путь к txt файлу
+            Entrance - сегодняшняя дата и время\
+            Авторизация пользователя
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Form1.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            \Записывается выход пользователя в журнал события
+            path - путь к txt файлу
+            Exit - сегодняшняя дата и время\
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Form1.components">
+            <summary>
+            Обязательная переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Form1.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+            <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        </member>
+        <member name="M:Kindergarten.Form1.InitializeComponent">
+            <summary>
+            Требуемый метод для поддержки конструктора — не изменяйте 
+            содержимое этого метода с помощью редактора кода.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Group_healt.button2_Click(System.Object,System.EventArgs)">
+             <summary>
+             Удаления записи в таблице "Группа здоровья"
+             dialogResult - диалоговое окно на подтверждения удаления записи
+            Delete_proverka_Group_healt - проверка что запись не используется в другой таблице
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Group_healt.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Group_healt.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Group_healt.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Group_kid.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            \Записывается в журнал события
+            path - путь к txt файлу
+            Entrance - сегодняшняя дата и время\
+            Удаления записи в таблице "Группа"
+            dialogResult - диалоговое окно на подтверждения удаления записи
+            Delete_group_kid - проверка что запись не используется в другой таблице
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Group_kid.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Group_kid.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Group_kid.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Kid.Kid_Load(System.Object,System.EventArgs)">
+            <summary>
+            Заполнение comboBox-кса (
+            comboBox1 - Группа
+            )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Kid.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            \Записывается в журнал события
+            path - путь к txt файлу
+            Entrance - сегодняшняя дата и время\
+            Удаления записи в таблице "Ребенок"
+            dialogResult - диалоговое окно на подтверждения удаления записи
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Kid.textBox1_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Фильтрация по ФИО ребенка
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Kid.button5_Click(System.Object,System.EventArgs)">
+            <summary>
+            Фильтрация по группе
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Kid.информацияОРебенкеToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Формирования выходного документа "Информация о выбранном ребенке" в Word-е
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Kid.списокДетейИмеющегоОдногоРодителяToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Формирования выходного excel документа "Список детей, имеющих одного родителя в семье"
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Kid.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Kid.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Kid.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Lessons.Lessons_Load(System.Object,System.EventArgs)">
+            <summary>
+            Заполнение comboBox-кса (
+            comboBox1 - Группа )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Lessons.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Удаления в таблице "Занятия"
+            dialogResult - диалоговое окно на подтверждения удаления записи
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Lessons.button6_Click(System.Object,System.EventArgs)">
+            <summary>
+            Фильтрация по группе
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Lessons.button7_Click(System.Object,System.EventArgs)">
+            <summary>
+            Фильтрация периоду даты проведенных занятий
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Lessons.сотрудникToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Сортировка по сотрудникам
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Lessons.отчетОПроведенныхЗанятияхЗаНедельныйПериодВремениToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Формирования выходного документа "Отчет о проведенных занятиях за недельный период времени" в Word-е
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Lessons.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Lessons.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Lessons.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Med_cart.Med_cart_Load(System.Object,System.EventArgs)">
+            <summary>
+            Заполнение comboBox-кса (
+            comboBox1 - ФИО ребенка
+            comboBox2 - Группа здоровья
+            )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Med_cart.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Удаления записи в таблице "Мед карта"
+            dialogResult - диалоговое окно на подтверждения удаления записи
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Med_cart.button5_Click(System.Object,System.EventArgs)">
+            <summary>
+            Фильтрация по ФИО ребенка
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Med_cart.button6_Click(System.Object,System.EventArgs)">
+            <summary>
+            Фильтрация по группе здоровья
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Med_cart.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Med_cart.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Med_cart.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Kindergarten.Menu_head.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Menu_head.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Menu_head.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Kindergarten.Menu_Medsetsra.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Menu_Medsetsra.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Menu_Medsetsra.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Kindergarten.Menu_mentor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Menu_mentor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Menu_mentor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Parents.button2_Click(System.Object,System.EventArgs)">
+             <summary>
+             Удаления записи в таблице "Родиетли"
+             dialogResult - диалоговое окно на подтверждения удаления записи
+            Delete_proverka_parents - проверка что запись не используется в другой таблице
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Parents.textBox1_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Фильтрация по ФИО отца и матери
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Parents.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Parents.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Parents.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Post.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            \Записывается в журнал события
+            path - путь к txt файлу
+            Entrance - сегодняшняя дата и время\
+            Удаления записи в справочнике "Должность"
+            dialogResult - диалоговое окно на подтверждения удаления записи
+            Delete_post - проверка что запись не используется в другой таблице
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Post.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Post.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Post.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Redpost.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Редактирование записи в справочник "должность"
+            Proverkapost - проверка на повторения записи (по полю названия должности)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Redpost.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Redpost.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Redpost.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_data_vac.Red_data_vac_Load(System.Object,System.EventArgs)">
+            <summary>
+            Заполнение comboBox-кса (comboBox1 - имя вакцинации, comboBox2 - ФИО ребенка)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Red_data_vac.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Редактирование записи в таблицу "vaccination_data"
+              Proverka_data_vac - проверка на повторение записи (по коду вакцинации,дате и коду ребенка)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Red_data_vac.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_data_vac.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Red_data_vac.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_dist.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Редактирование новой записи в таблицу "дисциплина"
+             Proverka_dist - проверка на повторение записи (по полю "название дисциплины")
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Red_dist.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_dist.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Red_dist.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_group_kid.Red_group_kid_Load(System.Object,System.EventArgs)">
+            <summary>
+            Заполнение comboBox-кса (comboBox1 - имя типа группы)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Red_group_kid.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Редактирование записи в таблицу "Группы"
+            Proverka_group_kid - проверка на повторении записи (по полю название группы и номера кабинета)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Red_group_kid.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_group_kid.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Red_group_kid.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_health_group.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Редактирование новой записи в справочник "health_group"
+            Proverka_health_group - проверка на повторение записи (по полю номера группы здоровья)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Red_health_group.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_health_group.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Red_health_group.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_info_staff.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            \Записывается в журнал события
+            path - путь к txt файлу
+            Exit - сегодняшняя дата и время\
+            Редактирования пароля в таблице "Сотрудники"
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Red_info_staff.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_info_staff.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Red_info_staff.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_kid.Red_kid_Load(System.Object,System.EventArgs)">
+            <summary>
+            Заполнение comboBox-кса (
+            comboBox7 - Группа
+            comboBox1 - ФИО отца
+            comboBox2 - тип группы
+            comboBox6 - ФИО матери
+            )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Red_kid.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+             Редактирование записи в таблице "Ребенок"
+              Проверки:
+                Кол-во детей в группе (Filter_kid)
+                Возраст (Proverka_kid(AGE_FROM,AGE_UP))
+                Пустые поля
+                на повторения записи по полю свидетельство о рождении (Proverka_kid.Proverka)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Red_kid.comboBox2_SelectionChangeCommitted(System.Object,System.EventArgs)">
+            <summary>
+            В зависимости от выбора из comboBox2-кса типа группы, в comboBox7 будут отображаться группы, соотвествующей выбранной типа группы
+            Например:
+             comboBox2 = Ясельная группа
+             comboBox7 = Пчела,Утконосы
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Red_kid.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_kid.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Red_kid.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_lesson.Red_lesson_Load(System.Object,System.EventArgs)">
+            <summary>
+            Заполнение comboBox-кса (
+            comboBox1 - Группа
+            comboBox2 - ФИО сотрудника
+            comboBox6 - Дисциплина
+            )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Red_lesson.button2_Click(System.Object,System.EventArgs)">
+             <summary>
+             Редактирования записи в таблицу "Занятия" за недельный период времени (От Пн до Пт)
+            
+             weekBefore,weekUp - переменный для подсчета недельнего периода
+             Find_hour_dist_fromlessonsproverka - находит стандартное значения кол-во часов выбранной дисциплины, который учитель должен провести за недельный период
+             Proverka_hour_lesson.Proverka - проверят сколько часов, выбранной дисциплины, за недельный период времени было уже проведено
+             Proverka_hour_lesson.Hour - переменна, которая хранит кол-во часов выбранной дисциплины, за недельный период времени, которые были уже проведены
+             Find_hour_dist_fromlessonsproverka.Hour_dist - переменная, которая хранит стандартное значения часов выбранной дисциплины
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Red_lesson.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_lesson.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Red_lesson.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_med_cart.Red_med_cart_Load(System.Object,System.EventArgs)">
+            <summary>
+            Заполнение comboBox-кса (
+            comboBox1 - ФИО ребенка
+            comboBox2 - Группа здоровья
+            )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Red_med_cart.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Редактирования записи в таблицу "Мед карта"
+            Proverka_med_cart - проверка на повторения записи (по полю свидетельство о рождении)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Red_med_cart.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_med_cart.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Red_med_cart.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_parents.button2_Click(System.Object,System.EventArgs)">
+             <summary>
+             Редактирование записи в таблицу "Родители"
+            
+             Proverka_parents.Proverka_kod - Проверка в таблице "родители" по коду
+             Proverka_parents.Proverka_telephone_momANDtelephone_dad - Проверка в таблице "родители" по телефону отца и матери
+            
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Red_parents.comboBox1_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Очистка не активного groupBox-кса
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Red_parents.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_parents.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Red_parents.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_staff.Red_staff_Load(System.Object,System.EventArgs)">
+            <summary>
+             Заполнение comboBox-кса (
+            comboBox1 - Должность
+            )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Red_staff.button2_Click(System.Object,System.EventArgs)">
+             <summary>
+            
+             Редактирование записи в таблицу "Сотрудники"
+             Proverka_staff_login.Proverka_log - проверка на повторения записи (по полю логина)
+             Proverka_staff_login.Proverka_telephone - проверка на повтороения записи (по полю телефона)
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Red_staff.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_staff.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Red_staff.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_typegroup.button3_Click(System.Object,System.EventArgs)">
+             <summary>
+            
+             Редактирование записи в таблицу "Типа группы"
+             Proverka_typegroup - проверка на повторения записи (по полю названия типа группы)
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Red_typegroup.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_typegroup.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Red_typegroup.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_vaccination.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Редактирование записи  в справочник "Вакцинация"
+            Proverka_vaccination - проверка на повторения записи (по полю названия вакцинации)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Red_vaccination.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Red_vaccination.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Red_vaccination.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Staff.Staff_Load(System.Object,System.EventArgs)">
+            <summary>
+             Заполнение comboBox-кса (
+            comboBox1 - Должность
+            )
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Staff.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+             \Записывается в журнал события
+            path - путь к txt файлу
+            Entrance - сегодняшняя дата и время\
+            Удаления записи в таблице "Сотрудники" (по кнопке на форме)
+            dialogResult - диалоговое окно на подтверждения удаления записи
+            Delete_staff - проверка что запись не используется в другой таблице
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Staff.button5_Click(System.Object,System.EventArgs)">
+            <summary>
+            Фильтрация по должности
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Staff.фИОToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Сортировка по ФИО сотрудников
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Kindergarten.Staff.dataGridView1_CellContentClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+             \Записывается в журнал события
+            path - путь к txt файлу
+            Entrance - сегодняшняя дата и время\
+            Удаления записи в таблице "Сотрудники" (по кнопке в таблице)
+            dialogResult - диалоговое окно на подтверждения удаления записи
+            Delete_staff - проверка что запись не используется в другой таблице
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Staff.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Staff.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Staff.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Types_of_group.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            \Записывается в журнал события
+            path - путь к txt файлу
+            Entrance - сегодняшняя дата и время\
+            Удаления записи в таблице "Тип группы"
+            dialogResult - диалоговое окно на подтверждения удаления записи
+            Delete_proverka_type_group - проверка что запись не используется в другой таблице
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Types_of_group.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Types_of_group.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Types_of_group.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Vaccination.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Удаления записи в таблице "Вакцина"
+            dialogResult - диалоговое окно на подтверждения удаления записи
+            Delete_vactin - проверка что запись не используется в другой таблице
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Kindergarten.Vaccination.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Vaccination.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Kindergarten.Vaccination.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Kindergarten.Program.Main">
+            <summary>
+            Главная точка входа для приложения.
+            </summary>
+        </member>
+        <member name="T:Kindergarten.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:Kindergarten.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:Kindergarten.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+        <member name="P:Kindergarten.Properties.Resources.Parents">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Kindergarten.Properties.Resources.Детский_сад">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>

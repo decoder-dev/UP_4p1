@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\misti\\Downloads\\AyuGram Desktop\\C# УП\\Kindergarten11\\Kindergarten\\Kindergarten.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\misti\\Downloads\\AyuGram Desktop\\C# УП\\Kindergarten11\\Kindergarten\\Kindergarten.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\misti\\Downloads\\AyuGram Desktop\\C# УП\\Kindergarten11\\Kindergarten\\Kindergarten.csproj",
+        "projectName": "Kindergarten",
+        "projectPath": "C:\\Users\\misti\\Downloads\\AyuGram Desktop\\C# УП\\Kindergarten11\\Kindergarten\\Kindergarten.csproj",
+        "packagesPath": "C:\\Users\\misti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\misti\\Downloads\\AyuGram Desktop\\C# УП\\Kindergarten11\\Kindergarten\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\misti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

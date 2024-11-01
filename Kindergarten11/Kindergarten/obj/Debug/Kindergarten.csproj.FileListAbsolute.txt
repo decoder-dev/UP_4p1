@@ -1,0 +1,321 @@
+E:\C# УП\Kindergarten\Kindergarten\bin\Debug\Kindergarten.exe.config
+E:\C# УП\Kindergarten\Kindergarten\bin\Debug\Kindergarten.exe
+E:\C# УП\Kindergarten\Kindergarten\bin\Debug\Kindergarten.pdb
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Form1.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Properties.Resources.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.csproj.GenerateResource.cache
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.csproj.CoreCompileInputs.cache
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.exe
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.pdb
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.csproj.CopyComplete
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Menu_head.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Menu_mentor.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Vaccination.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_vaccination.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Red_vaccination.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Types_of_group.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_type_group.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Red_typegroup.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Post.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.csproj.AssemblyReference.cache
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Addpost.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_group_healt.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Group_healt.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Redpost.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Red_health_group.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Kid.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_Kid.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Parents.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_parents.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Staff.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_staff.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Red_kid.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Discipline.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_Distiplin.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Med_cart.resources
+E:\C# УП\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Group_kid.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\bin\Debug\Kindergarten.exe.config
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\bin\Debug\Kindergarten.exe
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\bin\Debug\Kindergarten.pdb
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\bin\Debug\MySql.Data.dll
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.csprojAssemblyReference.cache
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Addpost.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_Distiplin.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_group_healt.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_Kid.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_parents.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_staff.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_type_group.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_vaccination.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Discipline.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Form1.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Group_healt.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Group_kid.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Kid.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Med_cart.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Menu_head.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Menu_mentor.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Parents.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Post.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Properties.Resources.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Redpost.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Red_health_group.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Red_kid.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Red_typegroup.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Red_vaccination.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Staff.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Types_of_group.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Vaccination.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.csproj.GenerateResource.cache
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.csproj.CoreCompileInputs.cache
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.csproj.CopyComplete
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.exe
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.pdb
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_Group_kid.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Red_group_kid.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Red_dist.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_Med_cart.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Red_med_cart.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Red_staff.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Data_vaccination.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Add_data_vac.resources
+C:\Users\pr201das-05\Downloads\Kindergarten\Kindergarten\obj\Debug\Kindergarten.Red_data_vac.resources
+D:\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.exe.config
+D:\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.exe
+D:\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.pdb
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Addpost.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_data_vac.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Distiplin.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_group_healt.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Group_kid.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Kid.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Med_cart.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_parents.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_staff.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_type_group.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_vaccination.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Data_vaccination.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Discipline.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Form1.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Group_healt.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Group_kid.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Kid.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Lessons.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Med_cart.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Menu_head.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Menu_mentor.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Parents.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Post.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Properties.Resources.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Redpost.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_data_vac.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_dist.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_group_kid.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_health_group.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_kid.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_med_cart.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_staff.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_typegroup.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_vaccination.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Staff.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Types_of_group.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Vaccination.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.GenerateResource.cache
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.CoreCompileInputs.cache
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.CopyComplete
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.exe
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.pdb
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_lessons.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_lesson.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_info_staff.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_parents.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Menu_Medsetsra.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.exe.config
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.exe
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.pdb
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\bin\Debug\MySql.Data.dll
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csprojAssemblyReference.cache
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Addpost.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_data_vac.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Distiplin.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_group_healt.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Group_kid.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Kid.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_lessons.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Med_cart.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_parents.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_staff.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_type_group.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_vaccination.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Data_vaccination.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Discipline.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Form1.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Group_healt.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Group_kid.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Kid.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Lessons.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Med_cart.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Menu_head.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Menu_Medsetsra.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Menu_mentor.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Parents.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Post.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Properties.Resources.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Redpost.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_data_vac.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_dist.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_group_kid.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_health_group.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_info_staff.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_kid.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_lesson.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_med_cart.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_parents.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_staff.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_typegroup.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_vaccination.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Staff.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Types_of_group.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Vaccination.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.GenerateResource.cache
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.CoreCompileInputs.cache
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.CopyComplete
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.exe
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.pdb
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.ResolveComReference.cache
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Doc_group.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.AssemblyReference.cache
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.ResolveComReference.cache
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Doc_group.resources
+D:\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Doc_group_med_cart.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Doc_group_med_cart.resources
+C:\Users\pr201das-05\Downloads\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.xml
+E:\C# УП\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.exe.config
+E:\C# УП\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.xml
+E:\C# УП\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.exe
+E:\C# УП\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.pdb
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.ResolveComReference.cache
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Addpost.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_data_vac.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Distiplin.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_group_healt.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Group_kid.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Kid.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_lessons.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Med_cart.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_parents.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_staff.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_type_group.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_vaccination.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Data_vaccination.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Discipline.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Doc_group.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Doc_group_med_cart.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Form1.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Group_healt.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Group_kid.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Kid.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Lessons.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Med_cart.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Menu_head.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Menu_Medsetsra.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Menu_mentor.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Parents.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Post.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Properties.Resources.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Redpost.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_data_vac.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_dist.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_group_kid.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_health_group.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_info_staff.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_kid.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_lesson.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_med_cart.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_parents.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_staff.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_typegroup.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_vaccination.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Staff.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Types_of_group.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Vaccination.resources
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.GenerateResource.cache
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.CoreCompileInputs.cache
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.CopyComplete
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.exe
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.pdb
+E:\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.AssemblyReference.cache
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.ResolveComReference.cache
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Addpost.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_data_vac.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Distiplin.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_group_healt.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Group_kid.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Kid.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_lessons.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_Med_cart.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_parents.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_staff.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_type_group.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Add_vaccination.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Data_vaccination.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Discipline.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Doc_group.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Doc_group_med_cart.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Form1.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Group_healt.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Group_kid.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Kid.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Lessons.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Med_cart.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Menu_head.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Menu_Medsetsra.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Menu_mentor.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Parents.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Post.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Properties.Resources.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Redpost.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_data_vac.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_dist.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_group_kid.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_health_group.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_info_staff.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_kid.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_lesson.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_med_cart.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_parents.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_staff.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_typegroup.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Red_vaccination.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Staff.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Types_of_group.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.Vaccination.resources
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.GenerateResource.cache
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.CoreCompileInputs.cache
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.exe
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.pdb
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.exe.config
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.xml
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.exe
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\Kindergarten.pdb
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.csproj.CopyComplete
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\EntityFramework.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\Google.Protobuf.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\Google.Protobuf.pdb
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\MySql.Data.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\System.Buffers.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\System.IO.Pipelines.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\System.Memory.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\bin\Debug\ZstdSharp.dll
+C:\Users\misti\Downloads\AyuGram Desktop\C# УП\Kindergarten11\Kindergarten\obj\Debug\Kindergarten.exe.config
