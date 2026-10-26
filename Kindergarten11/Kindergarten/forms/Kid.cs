@@ -2,7 +2,6 @@
 using System.Data;
 using System.IO;
 using System.Windows.Forms;
-using word = Microsoft.Office.Interop.Word;
 
 namespace Kindergarten
 {
