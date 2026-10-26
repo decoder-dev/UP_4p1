@@ -1,0 +1,26 @@
+name: Windows dependency verification
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-2022
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
+        with:
+          dotnet-version: 8.0.x
+      - name: Restore and build the .NET Framework solution
+        shell: pwsh
+        run: |
+          $installation = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -property installationPath
+          & "$installation\MSBuild\Current\Bin\MSBuild.exe" "Kindergarten11/Kindergarten.sln" /restore /p:Configuration=Release /m
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Discover existing tests without connecting to the external database
+        run: dotnet vstest "Kindergarten11/UnitTestProject1/bin/Release/UnitTestProject1.dll" --ListTests
